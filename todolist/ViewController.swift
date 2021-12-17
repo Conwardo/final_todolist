@@ -73,7 +73,7 @@ class ViewController: UIViewController, UITableViewDataSource {
            
             items.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
-            
+            //deletion of list items
             tableView.endUpdates()
         }
     }
